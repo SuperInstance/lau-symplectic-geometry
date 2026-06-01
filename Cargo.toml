@@ -1,0 +1,15 @@
+[package]
+name = "lau-symplectic-geometry"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/SuperInstance/lau-symplectic-geometry"
+description = "Symplectic geometry bridge between contact geometry, optimal control, and Hamiltonian mechanics for robotics trajectory planning"
+
+[dependencies]
+nalgebra = { version = "0.33", features = ["serde-serialize"] }
+serde = { version = "1", features = ["derive"] }
+num-traits = "0.2"
+
+[dev-dependencies]
+approx = "0.5"
